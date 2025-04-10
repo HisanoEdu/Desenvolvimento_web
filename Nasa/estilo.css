@@ -1,0 +1,59 @@
+.titulo{
+    color:white;
+    font-size: 4.5rem;
+    top: 90px;
+    margin:0px;
+    font-family: "inter",sans-serif;
+    position: absolute;
+}
+
+.subtitulo{
+    color:white;
+    font-family: "Public Sans Web",sans-serif;
+    top: 200px;
+    margin:0px;
+    width: 620px;
+    position: absolute;
+    line-height: 25px;
+}
+
+.imagem{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+
+ .back {
+        width: 1900px;
+        height:70px ;
+        background-color: black;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        margin: 0px;
+        padding: 0px;
+        z-index:-1;
+     
+    }
+     
+    #nasa {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        margin: 0px;
+        padding: 0px;
+        width: 1900px;
+        height:600px ;
+        z-index: -1;
+    }
+
+    .nome{
+        color:white;
+        font-family: "Public Sans Web",sans-serif;
+        top: 300px;
+        margin:0px;
+        width: 620px;
+        position: absolute;
+        line-height: 25px;
+    }
+    
