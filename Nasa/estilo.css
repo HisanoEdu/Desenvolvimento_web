@@ -5,6 +5,7 @@
     margin:0px;
     font-family: "inter",sans-serif;
     position: absolute;
+    left: 1095px;
 }
 
 .subtitulo{
@@ -15,6 +16,7 @@
     width: 620px;
     position: absolute;
     line-height: 25px;
+    left: 1095px;
 }
 
 .imagem{
@@ -24,11 +26,11 @@
 }
 
  .back {
-        width: 1900px;
+        width: 1901px;
         height:70px ;
         background-color: black;
         position: absolute;
-        top: 0px;
+        top: 0px; 
         left: 0px;
         margin: 0px;
         padding: 0px;
@@ -42,8 +44,8 @@
         left: 0px;
         margin: 0px;
         padding: 0px;
-        width: 1900px;
-        height:600px ;
+        width: 1901px;
+        height:700px ;
         z-index: -1;
     }
 
@@ -55,6 +57,7 @@
         width: 620px;
         position: absolute;
         line-height: 25px;
+        left: 1095px;
     }
 
     .logo{
@@ -74,19 +77,19 @@
 
    }
 
-    #astro{
+    #miriades{
         position: relative;
         top: 0px;
-        left:100px;
-        margin:0px;
-        padding:0px;
-        width: 500px;
-        height: 400px;
+        left:200px;
+        margin:150px;
+        padding:100px;
+        width: 700px;
+        height: 700px;
         z-index: -1;
     }
 
  
-    #star{
+    /* #star{
         position: relative;
         top: 0px;
         left:120px;
@@ -94,14 +97,26 @@
         padding:0px;
         width: 300px;
         height: 400px;
-        z-index: -1;
-    }
-    
+        z-index: -1; */
+    /* }
+     */
     .img{
-        display: inline;
-    }
+        position: absolute;
+        top: 0;
+        }
 
     .estrela{
-        display: inline;
+        position: relative;
+        top: 0px;
+        left:120px;
+        margin:0px;
+        padding:0px;
+        width: 300px;
+        height: 400px;
+        z-index: -1; 
     }
     
+    body{
+        background-color:#1C1C1C;
+    }
+
