@@ -1,0 +1,29 @@
+body{
+    background:linear-gradient(#032639);
+    background-attachment: fixed;
+} 
+
+.foto1{
+    width: 136px;
+    height: 141px;
+    position: relative;
+    top:55px;
+    
+}
+
+#imagem1{
+    width: 55%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.texto1{
+    position:absolute;
+    top:40px;
+    font-size: 23px;
+    line-height: 40px;
+    color:white;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: justify;
+}
