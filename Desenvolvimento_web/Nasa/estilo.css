@@ -1,0 +1,126 @@
+.titulo{
+    color:white;
+    font-size: 4.5rem;
+    top: 90px;
+    margin:0px;
+    font-family: "inter",sans-serif;
+    position: absolute;
+    left: 1095px;
+}
+
+.subtitulo{
+    color:white;
+    font-family: "Public Sans Web",sans-serif;
+    top: 200px;
+    margin:0px;
+    width: 620px;
+    position: absolute;
+    line-height: 25px;
+    left: 1095px;
+}
+
+.imagem{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+
+ .back {
+        width: 1901px;
+        height:70px ;
+        background-color: black;
+        position: absolute;
+        top: 0px; 
+        left: 0px;
+        margin: 0px;
+        padding: 0px;
+        z-index:-1;
+     
+    }
+     
+    #nasa {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        margin: 0px;
+        padding: 0px;
+        width: 1901px;
+        height:700px ;
+        z-index: -1;
+    }
+
+    .nome{
+        color:white;
+        font-family: "Public Sans Web",sans-serif;
+        top: 300px;
+        margin:0px;
+        width: 620px;
+        position: absolute;
+        line-height: 25px;
+        left: 1095px;
+    }
+
+    .logo{
+        align-items: center;
+        width: "50px";
+        height: "50px";
+        left:860px;
+        position:absolute;
+    }
+   .nave{
+    position: absolute;
+    width: 490px;
+    top:720px;
+    font-size: 30px;
+    color:white;
+    left: 120px;
+
+   }
+
+    #miriades{
+        position: relative;
+        top: 0px;
+        left:200px;
+        margin:150px;
+        padding:100px;
+        width: 700px;
+        height: 700px;
+        z-index: -1;
+    }
+
+ 
+    /* #star{
+        position: relative;
+        top: 0px;
+        left:120px;
+        margin:0px;
+        padding:0px;
+        width: 300px;
+        height: 400px;
+        z-index: -1; */
+    /* }
+     */
+    .img{
+        position: absolute;
+        top: 0;
+        }
+
+    .estrela{
+        position: relative;
+        top: 0px;
+        left:120px;
+        margin:0px;
+        padding:0px;
+        width: 300px;
+        height: 400px;
+        z-index: -1; 
+    }
+    
+     body{
+        background-color:#1C1C1C;
+    } 
+
+    
+     p:houver {
+        background-color:green;
+    }
