@@ -1,29 +1,164 @@
-body{
-    background:linear-gradient(#032639);
-    background-attachment: fixed;
-} 
-
-.foto1{
-    width: 136px;
-    height: 141px;
-    position: relative;
-    top:55px;
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #032639;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    background-color: #032639;
+  }
+  
+  .logo {
+    width: 180px;
+  }
+  
+  .home-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .main-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+  }
+  
+  .login-box {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 40px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 450px;
+    margin-bottom:22px;
+  }
+  
+  #imagem1 {
+    width: 90px;
+    margin-bottom: 10px;
+    margin-top: -90px;
+  }
+  
+  .texto1 {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: -10px;
+  }
+  
+  .inputs {      
+    width: 100%;
+     margin-top:-10px;
+    display: flex;
+    flex-direction: column;
+     row-gap:5px;
+    align-items: center;
+  }
+  
+  .input-box {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+    width: 90%;
+    padding: 5px;
+    margin-top:50px;
+  }
+  
+  .icon {
+    width: 34px;
+    height: 34px;
+    margin-right: 10px;
+  }
+  
+  .input-box input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom:-100px;
+    margin-top: -100px;
+  }
+  
+  .lembrar {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .lembrar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .g-recaptcha {
+    margin: 20px 0;
+    margin-top: 40px;
     
+  }
+
+  #capt {
+    width: 9px;
+  }
+   
+
+  .login-button {
+    background-color: #c6ff00;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    padding: 14px;
+    width: 250px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top:-10px;
+  }
+  
+  .login-button:hover {
+    background-color: #b5eb00;
+  }
+  
+  .footer {
+    background-color: #c6ff00;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 12px;
+    color: #032639;
+  }
+  
+  .botao-login {
+    display: flex;
+    justify-content: center;
+    width:100%; /* Opcional: Se quiser que o botão fique centralizado dentro da div */
+    margin-top: -19px;
 }
 
-#imagem1{
-    width: 55%;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+
+button {
+  background-color: #d3ff00; /* COR no botão, e não na div */
+  border: none;
+  padding: 14px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius:6px;
+  width:250px;
+  cursor: pointer;
 }
 
-.texto1{
-    position:absolute;
-    top:40px;
-    font-size: 23px;
-    line-height: 40px;
-    color:white;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    text-align: justify;
-}
+  
