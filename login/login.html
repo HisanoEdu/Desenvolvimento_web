@@ -1,61 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Land Grow</title>
-  <link rel="stylesheet" href="log.css">
+  <link rel="stylesheet" href="log.css" />
 </head>
 
-<body>
+<body id="login-do-usuario">
+  <main class="main-do-usuario">
 
-  <main class="main-login">
-    <div class="login-box">
-      <img id="imagem1" src="img_logo login.png" alt="Logo">
-      <p class="texto1">Login</p>
+    <div class="header">
+    </div>
 
-      <div class="inputs">
-        <div class="input-box">
-          <img class="icon" src="usuario.png" alt="Ícone usuário">
-          <input type="text">
+    <div class="login-container">
+      <img id="img_logo_land_Grow" src="img_logo login.png" alt="Logo" />
+      
+      <div class="login-box">
+        <p class="txt-1-escrever">Login</p>
+
+        <div class="input-box-land-Grow">
+          <img class="icon-usuario-do-cliente" src="usuario.png" alt="Ícone usuário" />
+          <input type="text" name="usuario" placeholder="Usuário" />
         </div>
 
-        <div class="input-box">
-          <img class="icon" src="cadeado.png" alt="Ícone senha">
-          <input type="password">
-        </div>
-
-        <div class="lembrar">
-          <div>
-            <input type="checkbox" id="lembrar">
-            <label for="lembrar">Lembrar</label>
+          <div class="input-box">
+            <img class="icon-cadeado-do-cliente" src="cadeado.png" alt="Ícone senha" />
+            <input type="password" name="senha" placeholder="Senha" />
           </div>
-          <a href="#">Esqueceu a senha?</a>
-        </div>
 
-        <div class="g-recaptcha">
-        <img class="capt" src="btn_reCAPTCHA.png" alt="btn_reCAPTCHA.png">
-        </div>
+          <div class="lembrar">
+            <div>
+              <input type="checkbox" id="lembrar" />
+              <label for="lembrar">Lembrar</label>
+            </div>
+            <a href="#">Esqueceu a senha?</a>
+          </div>
 
-        <div class="botao-login">
-          <button>Login</button>
+          <div class="g-recaptcha">
+            <img class="btn_reCAPTCHA" src="btn_reCAPTCHA.png" alt="reCAPTCHA" />
+          </div>
+
+          <button class="botao-login">Login</button>
         </div>
+      </div>
+    </div>
+
   </main>
-
 </body>
 </html>
-
-          
-
-
-
-
-
-
-
-
-
-
-
-
-        
