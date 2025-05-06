@@ -7,7 +7,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.header {
+.header-user-da-land-grow {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,7 +15,7 @@
   background-color: #032639;
 }
 
-.logo {
+.Logo-lg-login-user {
   width: 180px;
 }
 
@@ -38,6 +38,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-left: -50px;
 }
 
 
@@ -60,7 +61,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px;
+  padding:40px;
   padding-top: 60px;
   clip-path: polygon(
     0 0, 
@@ -76,20 +77,21 @@
 
 .input-box-land-Grow input {
   background-color: transparent;
-  border: none;
+  border:none;
   border-bottom: 1px solid white;
   outline: none;
   color: white;
   font-size: 16px;
-  width: 100px;
-  padding: 8px 0 5px 35px;
+  width:344px;
+  padding: 5px;
+  margin-top: 80px;
 }
 
-.icon-usuario-do-cliente {
+#icon-usuario-do-cliente {
     position: absolute;
-    left: 5px;
-    top: 50px;
-    width: 20px;
+    left:66px;
+    top:120px;
+    width:42px;
   }
 
 .txt-1-escrever {
@@ -101,7 +103,7 @@
 }
 
 .inputs-login {      
-  width: 100%;
+  width: 100px;
   margin-top:-10px;
   display: flex;
   flex-direction: column;
@@ -115,10 +117,10 @@
   border-bottom: 1px solid white;
   width: 90%;
   padding: 5px;
-  margin-top:50px;
+  margin-top:px;
 }
 
-.icon-cadeado-do-cliente {
+#icon-cadeado-do-cliente {
   width: 34px;
   height: 34px;
   margin-right: 10px;
@@ -132,7 +134,7 @@
   width: 100%;
   font-size: 16px;
   margin-bottom:-100px;
-  margin-top: -100px;
+  margin-top: 100px;
 }
 
 .lembrar {
@@ -150,16 +152,15 @@
 }
 
 .g-recaptcha {
-  margin: 20px 0;
-  margin-top: 40px;
-  
+  margin: 20px ;
+  margin-top: 130px;
 }
 
-#btn_reCAPTCHA {
-  width: 9px;
+.btn_reCAPTCHA {
+  width: 320px;
+
 }
  
-
 .login-button {
   background-color: #c6ff00;
   color: #000;
@@ -170,7 +171,7 @@
   border-radius: 6px;
   cursor: pointer;
   font-size: 18px;
-  margin-top:-10px;
+  margin-top:-40px;
 }
 
 .login-button:hover {
@@ -185,11 +186,11 @@
   color: #032639;
 }
 
-.botao-login {
+.botao-login-land-grow {
   display: flex;
   justify-content: center;
   width:100%; 
-  margin-top: -19px;
+  margin-top: 30px;
   background-color: #d3ff00; 
   border: none;
   padding: 14px;
