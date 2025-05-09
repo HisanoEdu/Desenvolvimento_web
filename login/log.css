@@ -51,7 +51,7 @@
   z-index: 10;
 }
 
-.login-box {
+.login-box-borda-lg {
   position: relative;
   border: 1px solid #ccc;
   border-radius: 22px;
@@ -75,10 +75,9 @@
   );
 }
 
-
 #icon-usuario-do-cliente {
     position: absolute;
-    left:66px;
+    left:58px;
     top:145px;
     width:42px;
   }
@@ -148,8 +147,6 @@
 
 .btn_reCAPTCHA {
   width: 320px;
-
-
 }
  
 .login-button {
