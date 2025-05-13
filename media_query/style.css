@@ -1,0 +1,38 @@
+/* estilo padrão */
+
+body{
+    background-color: red;
+    font-size: 20px;
+}
+
+/* estilo aplicado em telas com largura maxima, pode ser utilizada tres por padrão um para desktop, mobile e tablet e uktimo caso uma tv  */
+@media(max-width:768px) {
+    body{
+        background-color: lightgray;
+        font-size: 12px;
+    }
+}
+
+/* estilo padrão (mobile firt) */
+
+.conteiner{
+    width: 90%;
+    font-size: 1rem;
+}
+
+/* tablet */
+
+@media(min-width:768px){
+    .conteiner{
+    width: 80%;
+    font-size: 1rem;   
+    }
+}
+
+/* desktop */
+@media(min-width:1024px){
+    .conteiner{
+    width: 70%;
+    font-size: 1.4rem;   
+    }
+}

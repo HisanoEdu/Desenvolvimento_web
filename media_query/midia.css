@@ -1,0 +1,59 @@
+.body{
+    background-color: aliceblue;
+}
+/* estilo padrão */
+
+/* estilo aplicado em telas com largura maxima, pode ser utilizada tres por padrão um para desktop, mobile e tablet e uktimo caso uma tv  */
+@media(max-width:768px) {
+    body{
+        background-color: lightgray;
+        font-size: 12px;
+    }
+}
+
+/* estilo padrão (mobile firt) */
+
+.conteiner{
+    width: 90%;
+    font-size: 1rem;
+}
+
+/* tablet */
+
+@media(min-width:768px){
+    .conteiner{
+    width: 80%;
+    font-size: 1rem;   
+    }
+}
+
+/* desktop */
+@media(min-width:1024px){
+    .conteiner{
+    width: 70%;
+    font-size: 1.4rem;   
+    }
+}
+
+
+.tela-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:grey;
+  padding: 68px;
+  color: white;
+  border-radius: 8px;
+  width: 2000px;
+  margin-top: -89px;
+  margin-left: -100px;
+  box-shadow: black;
+}
+
+#logo_midia_removebg{
+    margin-top: -89px;
+}
+
+#imagem_01{
+    margin-top: -60px;
+}
